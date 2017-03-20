@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a4c639</color>
+    <color name="colorPrimaryDark">#a4c639</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="andgreen">#a4c639</color>
+    <color name="des_orange">#FFAE1A</color>
+    <color name="cloud_white">#FEFEFE</color>
+    <color name="andgreen_dark">#8dc639</color>
+    <color name="grey">#8c92ac</color>
+    <color name="sea_blue">#78B6A4</color>
+</resources>

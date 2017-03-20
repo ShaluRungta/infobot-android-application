@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">InfoBot</string>
+    <string name="intro">Get to know the details of
+any event occurring in your
+college. Infobot keeps you
+updated with the current
+events in your campus. Ask
+the bot your question and
+find out your answer.</string>
+    <string name="title_activity_dashboard_nav">DashboardNav</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_spinner">choose text size</string>
+    <string name="about_us">At NuevoThoughts Innovation and Creativity drive us. We are young, energetic and thinking company. For our list of Services please download our ePortfolio.</string>
+</resources>

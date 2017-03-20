@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/cloud_white"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/change_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Name"
+        android:textColor="@color/andgreen"
+        android:textSize="25dp"/>
+    <EditText
+        android:id="@+id/change_name"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Choose your name">
+    </EditText>
+    <Button
+        android:id="@+id/save_id"
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="7dp"
+        android:visibility="gone"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/cloud_white"
+        android:text="save"
+        android:background="@drawable/rightdes"/>
+    <Button
+        android:id="@+id/change_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/leftdes"
+        android:layout_marginTop="5dp"
+        android:text="Change Image"
+        android:textColor="@color/cloud_white"
+        android:textSize="15dp"/>
+        <LinearLayout
+            android:id="@+id/lla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <ImageButton
+                android:id="@+id/pic1"
+                android:layout_width="0px"
+                android:background="@drawable/boy_img"
+                android:layout_height="150dp"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:id="@+id/pic2"
+                android:layout_width="0px"
+                android:background="@drawable/girl_img"
+                android:layout_height="150dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+</LinearLayout>
+
+
+
+

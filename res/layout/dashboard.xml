@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cloud_white"
+    android:gravity="center">
+    <Button
+        android:id="@+id/but_events"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="#a4c639"
+        android:textColor="#ffffff"
+        android:textSize="60sp"
+        android:text="events"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+    <Button
+        android:id="@+id/but_quiz"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="#a4c639"
+        android:textColor="#ffffff"
+        android:textSize="60sp"
+        android:text="quiz"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+    <Button
+        android:id="@+id/but_exams"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="#a4c639"
+        android:textColor="#ffffff"
+        android:textSize="60sp"
+        android:text="exams"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+</LinearLayout>
